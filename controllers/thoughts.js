@@ -105,9 +105,12 @@ const thoughtsController = {
 
   removeReaction(req, res) {
     Thought.findByIdAndUpdate(
-      req.params.thoughtId, // The ID of the thought to update
-      { $pull: { reactions: { _id: req.params.reactionId } } }, // Command to remove the reaction with the specified _id
-      { new: true } // Option to return the updated document
+      req.params.thoughtId, 
+      // The ID of the thought to update
+      { $pull: { reactions: { _id: req.params.reactionId } } }, 
+      // Command to remove the reaction with the specified _id
+      { new: true } 
+      // Option to return the updated document
     )
     .then(dbThoughtData => {
       if (!dbThoughtData) {
