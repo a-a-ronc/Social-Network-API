@@ -12,14 +12,20 @@ mongoose.connect(connectionString, {
 
 const users = [
   {
-    username: 'lernantino',
-    email: 'lernantino@gmail.com',
+    username: 'gerald',
+    email: 'gerald@gmail.com',
     thoughts: [],
     friends: [],
   },
   {
-    username: 'janedoe',
-    email: 'janedoe@example.com',
+    username: 'mynameisjeff',
+    email: 'jeff@gmail.com',
+    thoughts: [],
+    friends: [],
+  },
+  {
+    username: 'marcel20!',
+    email: 'marcel20@gmail.com',
     thoughts: [],
     friends: [],
   },
@@ -27,13 +33,18 @@ const users = [
 
 const thoughts = [
   {
-    thoughtText: 'Here is a cool thought...',
-    username: 'lernantino',
+    thoughtText: 'I been thinking',
+    username: 'mynameisjeff',
     reactions: [],
   },
   {
-    thoughtText: 'Another thought!',
-    username: 'janedoe',
+    thoughtText: 'Whoa I also been thinkin',
+    username: 'gerald',
+    reactions: [],
+  },
+  {
+    thoughtText: 'Need a new idea for a painting...',
+    username: 'marcel20!',
     reactions: [],
   },
 ];

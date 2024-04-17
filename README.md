@@ -1,11 +1,10 @@
 # Social-Network-API
 
 ## Description
-This API is the backend to a social network. It is deigned to run CRUD operations against Users, Friends, Thoughts, and Reactions.
+This API is just the backend for a social network api. It has been created to run CRUD operations for the categories Users, Friends, Thoughts, and Reactions.
 
 ## Table of Contents
 * Installation
-* Sequence Diagram
 * Demo Video
 * License
 * Contributing
@@ -14,10 +13,6 @@ This API is the backend to a social network. It is deigned to run CRUD operation
 
 ## Installation
 For dev use only, use 'node seed.js' to seed the NoSQL database. Upon command line confirmation of a successful seed, run 'node server.js to start the server. Then by connecting to Insomnia, you can test the CRUD routes for proper operation.
-
-## Sequence Diagram
-
-## Sequence Diagram
 
 ## Demo Video
 For more operating details, see the working demo video
